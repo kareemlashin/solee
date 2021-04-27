@@ -29,7 +29,7 @@ class Loading extends PureComponent {
             ()=>{
               if (this.state.loading) {
                 return(
-                  <div className="loading">
+                  <div className="loading top">
 
                   <div class="loaders">
                           <div class="loader google-loader">

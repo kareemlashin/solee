@@ -42,3 +42,27 @@ body{
 @import "./component/_popup.scss";
 @import "./component/_media.scss";
 @import "./component/_loading.scss";
+.loading{
+    z-index: 999999999999999999999999999999 !important;
+    background-color: #202342;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #202342;
+    width:100%;
+}
+.top{
+    z-index: 999999999999999999999999999999 !important;
+    background-color: #202342;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #202342;
+    width:100%;
+}

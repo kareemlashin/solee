@@ -8,7 +8,9 @@
     right: 0;
     bottom: 0;
     background-color: #202342;
-    z-index: 999999999999999999999999999999;
+    width:100%;
+    z-index: 999999999999999999999999999999 !important;
+    z-index: 999999999999999999999999999999 !important;
 }
 .loader {
     overflow: hidden;

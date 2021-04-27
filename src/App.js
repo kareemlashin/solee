@@ -4,8 +4,7 @@ import './../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
 import Table from './component/Table/Table'
 import Nav from './component/Nav/Nav';
 import Analysis from './component/Analysis/index';
-import './App.css';
-import './assets/styles/main.scss';
+import './assets/styles/main.css';
 import Side from './component/Side/index';
 import Loading from './component/Loading/index';
 document.addEventListener('click',(e)=>{
