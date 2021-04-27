@@ -1,0 +1,131 @@
+
+table {
+    width: 100%;
+}
+table tbody {
+    width: 100%;
+    display: block;
+}
+
+table thead, table tbody tr {
+
+width: 100% !important;
+display: table!important;
+
+}
+
+
+tbody {
+    display: block !important;
+  max-height: 450px !important;
+  overflow: auto !important;
+  width: 100% !important;
+
+}
+
+tbody::-webkit-scrollbar-track ,.popup__notification::-webkit-scrollbar-track{
+	background-color: rgba($color:$white, $alpha: 0.1) !important;
+}
+
+tbody::-webkit-scrollbar ,.popup__notification::-webkit-scrollbar{
+  width: 5px;
+  height: 2px;
+
+}
+tbody::-webkit-scrollbar,.popup__notification::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: rgba($color:$white, $alpha: 0.1) !important;
+    
+}
+
+tbody::-webkit-scrollbar-thumb,.popup__notification::-webkit-scrollbar-thumb
+{
+    background-color: rgba($color:$white, $alpha: 0.8) !important;
+
+    height: 10px !important;
+
+
+}
+.fix-table table {
+  width: 100%;
+  overflow-y: none !important;
+  color: $white !important;
+}
+
+.fix-table::-webkit-scrollbar-track ,.popup__notification{
+	background-color: rgba($color:$white, $alpha: 0.1) !important;
+}
+
+.fix-table::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+
+}
+.fix-table::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: rgba($color:$white, $alpha: 0.1) !important;
+    
+}
+
+.fix-table::-webkit-scrollbar-thumb
+{
+	background-color: $white;
+    height: 10px !important;
+
+
+}
+
+.table thead th{
+    border: none !important;
+}
+.table thead {
+    border: none !important;
+}
+tbody{
+    border: none !important;
+}
+.fix-table table{
+    border: none !important;
+
+}
+.table td, .table th{
+        border: none !important;
+}
+td{
+    width: auto !important;
+}
+
+thead{
+    background-color: #2B2F55;
+
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+tbody tr{
+    border-bottom: 2px solid rgba($color: $white, $alpha: 0.3);
+}
+td,th {
+    word-break: break-all;
+
+}
+td, th{
+    padding: 15px 0px !important;
+    min-width: 100px !important;
+    max-width: 100px  !important;
+
+}
+
+tr td:nth-child(2){
+    min-width: 170px !important;
+    max-width: 170px !important;
+
+}
+tr td:nth-child(1){
+    padding-left: 10px !important;
+
+}

@@ -1,0 +1,51 @@
+.user{
+    height: 50px;
+    width: 50px;
+    object-fit: cover !important;
+}
+
+.bell
+{
+    cursor: pointer;
+    color: $bell;
+    border: 2px solid $border;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    font-size: 20px;
+    &::after{ 
+        content: ''; 
+        width: 13px; height: 13px; 
+        background-color: $FAIL;
+         position: absolute; 
+         border-radius: 50%; 
+         top: -5px;
+         right: -7px;
+         -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+           -ms-border-radius: 50%; 
+           -o-border-radius: 50%;
+
+           box-shadow: 0px 0px 0px 5px #0000;
+}
+}
+.user__details{
+    color: $white;
+    position: relative;
+    cursor: pointer;
+    .down{
+        position: absolute;
+        top: 18px;
+        right: 0;
+        font-size: 12px;
+    }
+}
+.email__user{
+    color: rgba($color:
+      $white,$alpha: 0.7);
+      font-size: 12px;
+}

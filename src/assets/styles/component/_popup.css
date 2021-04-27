@@ -1,0 +1,142 @@
+.ConfirmPopup, .PopupTransfer {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: open;
+  animation-duration: 1s;
+}
+
+.remove {
+  display: none;
+}
+
+.box-popup {
+  background-color: #2D325A;
+  width: 30%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+}
+
+.box-popup h6 {
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.box-popup p {
+  font-size: 16px;
+}
+
+.box-popup p a {
+  text-decoration: underline !important;
+}
+
+.box-popup a {
+  color: #63F4F7;
+  text-decoration: none !important;
+}
+
+.a-did {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.close-all {
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sheet {
+  color: #63F4F7;
+  background-color: rgba(99, 244, 247, 0.4);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.sheet i {
+  font-size: 25px;
+}
+
+@keyframes open {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+p {
+  word-break: break-all;
+}
+
+.box-transfer {
+  background-color: #2D325A !important;
+  width: 30%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.box-transfer input {
+  background-color: #252A4B;
+  border: none !important;
+  color: #fff;
+}
+
+.box-transfer input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.box-transfer .base {
+  background-color: #292D52 !important;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box-transfer label {
+  font-size: 13px;
+}
+
+.Cancel {
+  background-color: #2D325A;
+  color: #fff;
+  border: none;
+}
+
+.Send {
+  background-color: #63F4F7;
+  color: #fff;
+  border: none;
+}

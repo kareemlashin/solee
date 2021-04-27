@@ -1,0 +1,206 @@
+
+.SideWrapper{
+    color: $white;
+}
+.Deactive{
+    background-color: #323662;
+    border: none;
+    color: #EC4165;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 600;
+}
+.Renewal{
+    font-size: 13px;
+    margin-top: 2px;
+    display: inline-block;
+}
+.Stripe{
+    background-color: #01A9F4;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.StripeX{
+    font-weight: 700;
+    float: right;
+
+}
+h6{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    i{
+       color: #01A9F4;
+    }
+}
+.Transfer{
+    color: #01A9F4 !important;
+    i{
+        font-size: 15px !important;
+    }
+
+}
+.Current{
+    font-size: 14px !important;
+    color: rgba($color: $white, $alpha: 0.5);
+}
+.trans{
+    
+    background-color: #01A9F4;
+    color: $back_ground !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 3px;
+}
+.Desktop{
+font-size: 14px;
+font-weight: 600;
+}
+.borderDesktop{
+    border: 2px solid #323662;
+}
+.platform{
+    text-align: center;
+    background-color:#01A9F4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    i{
+        color: #2B999A;
+        font-size: 22px;
+    }
+}
+.platformA{
+    a{
+        cursor: pointer;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+}
+button,input{
+    outline: none !important;
+}
+
+.card__analysis{
+    background-color: #2B2F55;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: $white;
+    padding:15px 20px;
+}
+
+.col-md-4_5{
+    flex:0 0 37%;
+    max-width:37%;
+}
+.Filter{
+  margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        text-align: center !important;
+        display: inline-block;
+        padding: 10px 12px;
+                border-radius:8px ;
+        -webkit-border-radius:8px ;
+        -moz-border-radius:8px ;
+        -ms-border-radius:8px ;
+        -o-border-radius:8px ;
+        
+        background-color:
+        rgba($color:
+        $white,$alpha: 0.1);
+
+}
+span:nth-child(2) {
+  background-color: #01A9F4;
+}
+
+}
+
+.Checkouts{
+    color: #1EC1C3;
+    font-size: 30px;
+    font-weight: 700;
+    span{
+
+        font-size: 15px;
+        color: rgba($color:
+        $white,$alpha: 0.7); 
+       }
+}
+.Failure{
+    font-size: 30px;
+    color: $FAIL;
+    font-weight: 700;
+
+    span{
+
+        font-size: 15px;
+        color: rgba($color:
+        $white,$alpha: 0.7); 
+       }
+
+}
+.License{
+    padding-top: 35px;
+    font-size: 15px;
+    color: rgba($color:
+    $white,$alpha: 0.7); 
+}
+.cart{
+    position: absolute;
+    top: 19% ;
+    right: 10%;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eye{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.shopping ,.eye{
+    color: #01A9F4;
+    background-color: rgba($color: #01A9F4, $alpha: 0.2);
+}
+.plus{
+    color: $FAIL;
+    background-color: rgba($color: $FAIL, $alpha: 0.2);
+}

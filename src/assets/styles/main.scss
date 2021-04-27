@@ -1,0 +1,44 @@
+$back_ground:#202342;
+$white:#fff;
+$success:#63F4F7;
+$FAIL:#FE7448;
+$bell:#6F7291;
+$border:#2D325A;
+
+body{
+    background-color:$back_ground  !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+.SUCCESS{
+    color: $success;
+    background-color: rgba($color: $success, $alpha: 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 15px;
+}
+.FAIL{
+    
+    color: $FAIL;
+    background-color: rgba($color: $FAIL, $alpha: 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.vertical-align{
+    vertical-align: middle;
+
+}
+@import "./component/_table.scss";
+@import "./component/_card.scss";
+@import "./component/_nav.scss";
+@import "./component/_notification.scss";
+@import "./component/_popup.scss";
+@import "./component/_media.scss";
+@import "./component/_loading.scss";
